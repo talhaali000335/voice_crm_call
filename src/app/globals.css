@@ -37,3 +37,5 @@ table { width: 100%; border-collapse: collapse; font-size: .92rem; } th, td { te
 .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--muted); } .dot.on { background: var(--ok); box-shadow: 0 0 0 4px color-mix(in srgb, var(--ok) 25%, transparent); } .dot.think { background: var(--warn); }
 .src li { margin-bottom: 6px; } .src ul { padding-left: 18px; margin: 6px 0; }
 .tag { font-weight: 700; letter-spacing: .04em; font-size: .75rem; color: var(--brand); }
+.log { font: 12px/1.45 ui-monospace, Consolas, monospace; white-space: pre-wrap; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px; max-height: 220px; overflow: auto; margin: 8px 0 0; }
+summary { cursor: pointer; }
